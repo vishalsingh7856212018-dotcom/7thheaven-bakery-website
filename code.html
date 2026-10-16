@@ -1,0 +1,546 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary": "#000201", "on-error-container": "#93000a", "on-error": "#ffffff", "secondary-container": "#ffb86c", "on-primary": "#ffffff", "surface-container-high": "#eae8e4", "surface-container-highest": "#e4e2de", "secondary": "#87520c", "inverse-surface": "#30312e", "primary-container": "#2b1712", "outline": "#827471", "surface-container": "#efeeea", "inverse-primary": "#e3beb6", "tertiary-fixed-dim": "#8ad7a3", "background": "#fbf9f5", "surface": "#fbf9f5", "on-secondary-fixed": "#2c1700", "secondary-fixed-dim": "#ffb86c", "surface-container-low": "#f5f3ef", "surface-bright": "#fbf9f5", "on-secondary-fixed-variant": "#683d00", "on-primary-fixed": "#2a1611", "inverse-on-surface": "#f2f0ed", "surface-container-lowest": "#ffffff", "on-surface": "#1b1c1a", "on-background": "#1b1c1a", "error": "#ba1a1a", "on-tertiary-container": "#489364", "on-tertiary-fixed-variant": "#00522d", "on-primary-fixed-variant": "#5a413a", "surface-dim": "#dbdad6", "error-container": "#ffdad6", "tertiary-fixed": "#a5f4bd", "primary-fixed-dim": "#e3beb6", "on-surface-variant": "#504442", "on-tertiary-fixed": "#00210f", "tertiary-container": "#00220f", "primary-fixed": "#ffdad2", "surface-tint": "#745851", "secondary-fixed": "#ffdcbc", "surface-variant": "#e4e2de", "on-primary-container": "#9d7d76", "primary": "#050000", "on-tertiary": "#ffffff", "outline-variant": "#d3c3bf", "on-secondary": "#ffffff", "on-secondary-container": "#784700" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1rem", "space-xs": "0.25rem", "gutter-desktop": "1.5rem", "space-md": "1rem", "space-xl": "2.5rem", "margin": "1rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin-desktop": "2.5rem" }, fontFamily: { "body-md": ["Plus Jakarta Sans"], "headline-sm": ["Epilogue"], "headline-lg": ["Epilogue"], "label-md": ["Plus Jakarta Sans"], "display-lg": ["Epilogue"], "headline-lg-mobile": ["Epilogue"], "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Epilogue"], "body-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "display-lg-mobile": ["Epilogue"] }, fontSize: { "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg-mobile": ["26px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" }], "display-lg-mobile": ["36px", { "lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "700" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(43,23,18,0.06)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="7th Heaven Logo" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-UEUx9F0EM53Wn1uWEza9ZI0cAgpWueGbPCAiog4vC5oE9nPtOuAfCmlNf4U3kExHXCnVKhbp56EeS9iHh7fhxejlm7eRvz9Doi0-TQcPEN5FkGJNJxsiMNkhDS3D1CnOC-_GEIO6nNHJZgMWpjj6O3twTRYlqzT1ll4HVbPsahhOyveb3Z6X7kgySXtlKXvc81WsngqYSd81KD7OxPXX9Ye-aKQRvT-amOQwEx7pnOfvRZwxCK4W"><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-primary-container truncate leading-none">7th Heaven</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Robertsganj • Home</span></div></div><div class="flex items-center gap-space-xs shrink-0"><a aria-label="Call &amp; Order" class="h-11 px-space-md rounded-full bg-primary-container hover:bg-secondary text-surface flex items-center gap-space-xs transition-colors duration-200 shadow-sm" href="tel:+919876543210"><span class="material-symbols-outlined text-[18px]">call</span><span class="font-label-md text-label-md hidden xs:inline">Call</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden">
+<div class="relative w-full min-h-[460px] flex flex-col justify-end p-gutter bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDmjeQNspe59yycYAnEZr97cfmPDi_6nQSDb3Uw6YCU2jBRVdpUBJoXOsOWjPaTcqrs6oni07p1p0PH6ZlIIroHH7Ma5nCbHS_0a2xfS2t-5KAidtR51PHK9ldI-eOsnNnH6CmX55E4FpujfIfgyXYgl29dKk_OlwM0LvsHBqgjcj490Pn_8F_-Vif3SYg2bmxXjjdtZx74tIzqwx2tG2Z1fsYHtRvcK9cnpUFqFg-dgV125lpy0MZ4')">
+<!-- Rich Culinary Gradient Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-primary-container/70 to-primary-container/30"></div>
+<!-- Content Overlay -->
+<div class="relative z-10 flex flex-col gap-space-sm pt-space-xl">
+<!-- Live City Pill & 100% Veg Assurance -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/90 backdrop-blur-md text-on-secondary-fixed font-label-sm text-label-sm shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+            Now Open in Robertsganj • Sonbhadra
+          </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-on-tertiary-container font-label-sm text-label-sm shadow-sm">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span>
+            100% Eggless
+          </span>
+</div>
+<!-- Headline & Punchline -->
+<div class="space-y-1">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-surface drop-shadow-sm leading-tight">
+            Freshly Baked in 7 Minutes
+          </h1>
+<p class="font-body-sm text-body-sm text-surface-variant max-w-sm">
+            Experience Eastern UP's first live artisanal patisserie. Handcrafted pure vegetarian confections, decadent 3D cakes, and sizzling Belgian waffles baked on demand.
+          </p>
+</div>
+<!-- Primary Call to Action Button Grid -->
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs">
+<a class="h-12 px-space-md rounded-full bg-on-tertiary-container text-surface flex items-center justify-center gap-2 shadow-md active:scale-95 transition-transform duration-150" href="https://wa.me/919876543210?text=Hi%207th%20Heaven%20Robertsganj,%20I'd%20like%20to%20place%20an%20order!" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="font-label-md text-label-md truncate">Order on WhatsApp</span>
+</a>
+<a class="h-12 px-space-md rounded-full bg-surface text-primary-container flex items-center justify-center gap-2 shadow-md active:scale-95 transition-transform duration-150" data-path="menu" href="#">
+<span class="material-symbols-outlined text-[20px]">restaurant_menu</span>
+<span class="font-label-md text-label-md truncate">View Live Menu</span>
+</a>
+</div>
+<!-- Micro Social Action Links -->
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<a class="flex-1 h-9 rounded-full bg-surface-container-highest/60 backdrop-blur-md text-surface flex items-center justify-center gap-1.5 px-3 hover:bg-surface-container-highest/80 transition-colors" href="https://instagram.com/7thheavenrobertsganj" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">photo_camera</span>
+<span class="font-label-sm text-label-sm truncate">@7thheavenrobertsganj</span>
+</a>
+<a class="flex-1 h-9 rounded-full bg-surface-container-highest/60 backdrop-blur-md text-surface flex items-center justify-center gap-1.5 px-3 hover:bg-surface-container-highest/80 transition-colors" href="#store-location">
+<span class="material-symbols-outlined text-[16px]">navigation</span>
+<span class="font-label-sm text-label-sm truncate">Get Directions</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Live Kitchen Timer / USP Showcase -->
+<section class="p-gutter -mt-3 relative z-20">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_4px_16px_rgba(43,23,18,0.08)] flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">The Live Kitchen Promise</span>
+<span class="font-headline-sm text-headline-sm text-primary-container">Why 7th Heaven Robertsganj?</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0">
+<span class="material-symbols-outlined text-[20px]">timer</span>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-space-xs">
+<!-- Live Concept -->
+<div class="bg-surface-container-low rounded-lg p-3 flex flex-col items-center text-center gap-1.5">
+<div class="w-8 h-8 rounded-full bg-secondary-container/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">skillet</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold leading-tight">Live Kitchen</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant leading-tight">Fresh in 7 mins right before you</span>
+</div>
+<!-- 100% Veg -->
+<div class="bg-surface-container-low rounded-lg p-3 flex flex-col items-center text-center gap-1.5">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed/40 flex items-center justify-center text-on-tertiary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold leading-tight">100% Pure Veg</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant leading-tight">Certified eggless bakery kitchen</span>
+</div>
+<!-- Variety -->
+<div class="bg-surface-container-low rounded-lg p-3 flex flex-col items-center text-center gap-1.5">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[18px]">bakery_dining</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold leading-tight">50+ Varieties</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant leading-tight">Artisanal cakes, shakes &amp; savory</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Live 7-Minute Counter Micro-widget -->
+<section class="px-gutter pb-space-sm">
+<div class="bg-primary-container text-surface rounded-xl p-space-md flex items-center justify-between shadow-sm relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-24 h-24 rounded-full bg-secondary/20 pointer-events-none"></div>
+<div class="flex items-center gap-space-sm z-10">
+<div class="w-12 h-12 rounded-full bg-surface/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary-fixed-dim text-[24px]">local_cafe</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-surface leading-tight">Craving Hot Waffles?</span>
+<span class="font-body-sm text-body-sm text-surface-variant">Order at counter, served steaming in 7 mins.</span>
+</div>
+</div>
+<a class="shrink-0 w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center z-10 active:scale-95 transition-transform" href="tel:+919876543210">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</a>
+</div>
+</section>
+<!-- Trending Delights & Menu Categories -->
+<section class="py-space-md flex flex-col gap-space-sm">
+<div class="px-gutter flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Handcrafted Menu</span>
+<span class="font-headline-sm text-headline-sm text-primary-container">Trending Categories</span>
+</div>
+<a class="font-label-sm text-label-sm text-secondary flex items-center gap-0.5" data-path="menu" href="#">
+        View All <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Category Carousel -->
+<div class="flex gap-space-sm overflow-x-auto px-gutter no-scrollbar snap-x">
+<!-- Item 1: Designer & 3D Cakes -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col gap-2">
+<div class="relative w-full h-36 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Luxurious multi-tier Belgian chocolate fudge cake with golden edible leaf details, rich glossy ganache drip, topped with hand-rolled truffles, set on an artisanal ceramic cake stand in a warm lit bakery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhFeIo2FCgbvQx3gnqWosicput4GfldmTvLhKDwhHMDCzMfLLafa5gaultuJrya628JMjB5rb8JOVTwk05PAwNfW7z3rEeUnMtzqmdsP317NfiR_-qhZCG4eIi-9nVSqc4RrFM5Lv5u5BmjsPuEmRZLG6KxvXclj4A8e7foclMVDIzy0JCNA59Rg4nA9ahnkNjjR1x5AloqVu4lzf6GoEXbGi391Z_W-oultU3y7S1MsT-6peDsVwK">
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-xs flex items-center gap-1 shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-[10px] text-on-surface font-semibold">100% Veg</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-full bg-primary-container/90 text-surface font-label-sm text-[11px]">
+            From ₹450
+          </span>
+</div>
+<div class="flex flex-col px-1">
+<span class="font-headline-sm text-[16px] text-primary-container truncate">Designer &amp; 3D Cakes</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Customised celebration cakes made in 7 minutes</span>
+</div>
+<a class="w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary-container font-label-sm text-label-sm flex items-center justify-center gap-1 transition-colors mt-auto" href="https://wa.me/919876543210?text=Hi,%20I'd%20like%20to%20customize%20a%203D%20Cake!">
+<span class="">Customize on WhatsApp</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<!-- Item 2: Belgian Waffles & Doughnuts -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col gap-2">
+<div class="relative w-full h-36 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Freshly pressed golden Belgian waffle topped with whipped vanilla cream, fresh raspberries, blueberries, powdered sugar dust, and warm caramel maple syrup drizzle on a rustic wooden cafe table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmmn6liPnyg3gm7vk8P25Jhra8uby_rffeLEIns0GEBCDV0zXSwRYoM0jIiAZc6olSTLInsVafYqQ8hwgyucL88FPQdNStMGsDZmXWwzIskjhQsbCqHjurvMDVLvmyfgRG3gYVEEswTDGqN_-MorFh5KkdB06Hb1QT2sBL9E_iQr4VaIZuHhxwbFVsHMv_tYUMB9GNp37PWndOG4cWhFQJzSseGXR3tHlHJ_nZC7-j9MUpEXm2_Bp_">
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-xs flex items-center gap-1 shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-[10px] text-on-surface font-semibold">Live Made</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-full bg-primary-container/90 text-surface font-label-sm text-[11px]">
+            From ₹120
+          </span>
+</div>
+<div class="flex flex-col px-1">
+<span class="font-headline-sm text-[16px] text-primary-container truncate">Belgian Waffles &amp; Doughnuts</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Crisp, warm, and drenched in Swiss chocolate</span>
+</div>
+<a class="w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary-container font-label-sm text-label-sm flex items-center justify-center gap-1 transition-colors mt-auto" href="https://wa.me/919876543210?text=Hi,%20I%20want%20to%20order%20Belgian%20Waffles!">
+<span class="">Order Warm</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<!-- Item 3: Jar Cakes & Brownies -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col gap-2">
+<div class="relative w-full h-36 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Layered red velvet jar cake and dark chocolate fudge walnut brownie cubes with creamy cheese frosting visible through elegant glass jar packaging" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ45GjyteE3feh599VlARiNnuYcoKJiwZyU_aDjjhrHPLpxQbV0bTEPmqMg3lfA3eG7cao8FcCZtokvElmm9iFFXW9_RKhTVNmjzeYTljFQquhe8_VEE9aVXR_wgAYi285GYEvi73s2IXkNruVr1PTj8SywJqY87nTs8Hu8gVXPuScJASDf06q0avEY3fkUeXbshcUI9mwQBJoEqtMPIC71tQX9VoMsdEc9GKPpTLNXknc6YdB0Ng6">
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-xs flex items-center gap-1 shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-[10px] text-on-surface font-semibold">100% Veg</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-full bg-primary-container/90 text-surface font-label-sm text-[11px]">
+            From ₹99
+          </span>
+</div>
+<div class="flex flex-col px-1">
+<span class="font-headline-sm text-[16px] text-primary-container truncate">Jar Cakes &amp; Brownies</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Indulgent grab-and-go sweet portions</span>
+</div>
+<a class="w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary-container font-label-sm text-label-sm flex items-center justify-center gap-1 transition-colors mt-auto" href="https://wa.me/919876543210?text=Hi,%20I'd%20like%20to%20order%20Jar%20Cakes!">
+<span class="">Order Now</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<!-- Item 4: Cheesecakes & French Macarons -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col gap-2">
+<div class="relative w-full h-36 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Assorted pastel color macarons in pistachio green, strawberry rose, and salted caramel neatly stacked beside a slice of New York style blueberry cheesecake" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3raOg5uAmxRVd3EjG3wx370EkZgM7O_4sfYp5sPrRCf2YZcz4d3JXCECK5FbGoZzSPvMvDyg-z7L5cnmkZoMsoCOCU3l5g-b8zLCCdwO5LDQAjNgogblk5zNeond1_7kz3f_Q0MA3TGOd2y8wkVEszM-UYHq7pnvq_yGO98zAp6Ul4nRC1quyCAjKn8m8GUxiuPbPTJqP7mCeKHnW2x0nzMZP0V3FrSS8PwhTTmN9RqcuGVsOxblx">
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-xs flex items-center gap-1 shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-[10px] text-on-surface font-semibold">100% Veg</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-full bg-primary-container/90 text-surface font-label-sm text-[11px]">
+            From ₹60 / pc
+          </span>
+</div>
+<div class="flex flex-col px-1">
+<span class="font-headline-sm text-[16px] text-primary-container truncate">Cheesecakes &amp; Macarons</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Delicate French confectionery, strictly eggless</span>
+</div>
+<a class="w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary-container font-label-sm text-label-sm flex items-center justify-center gap-1 transition-colors mt-auto" href="https://wa.me/919876543210?text=Hi,%20I'd%20like%20Cheesecakes%20and%20Macarons!">
+<span class="">Order Now</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<!-- Item 5: Savory Pizzas & Cafe Beverages -->
+<div class="snap-start shrink-0 w-64 bg-surface-container-lowest rounded-xl p-space-sm shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col gap-2">
+<div class="relative w-full h-36 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Stone oven thin crust vegetarian pizza with melted mozzarella cheese, bell peppers, olives, and sweet corn alongside an iced caramel frappuccino with whipped cream topping" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB9ER9Qm772WofczWYnUVfkIczYJitXTHm9bbicKDA7jgr64SIMyAYrGL1A71vwxqwS-VNDK7RheuPakwFU570yCSQmBBQWHJrsHWXtPRRa7nkBNZO_CVgyqk-dCENzFJUCcTFkwTlM84rR_KZ1yMjh1qkAK0kzLsOqYKYq0MVjxIORrR5LSKtHQkAlJP69khWJRNHH1L8kgAQRfaekiIkxx-qPb1vRI0uS8tJN7fkHhWGlYmEymCD">
+<div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-xs flex items-center gap-1 shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-[10px] text-on-surface font-semibold">Cafe Bites</span>
+</div>
+<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-full bg-primary-container/90 text-surface font-label-sm text-[11px]">
+            From ₹149
+          </span>
+</div>
+<div class="flex flex-col px-1">
+<span class="font-headline-sm text-[16px] text-primary-container truncate">Pizza &amp; Savory Bites</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Crispy paneer burgers, garlic bread &amp; coolers</span>
+</div>
+<a class="w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary-container font-label-sm text-label-sm flex items-center justify-center gap-1 transition-colors mt-auto" href="https://wa.me/919876543210?text=Hi,%20I'd%20like%20to%20order%20Pizza%20and%20Beverages!">
+<span class="">Explore Savory</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Celebrations Banner / Live 3D Cake Customizer Callout -->
+<section class="px-gutter py-space-sm">
+<div class="bg-surface-container rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Planning a Birthday or Anniversary?</span>
+<h3 class="font-headline-sm text-headline-sm text-primary-container">Same-Day Custom Cakes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Send us your reference photo on WhatsApp. Our Robertsganj master chef bakes it fresh in under 45 minutes!</p>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<a class="h-11 px- space-md px-5 rounded-full bg-primary-container text-surface flex items-center justify-center gap-2 font-label-md text-label-md shadow-sm active:scale-95 transition-transform" href="https://wa.me/919876543210?text=Hi%207th%20Heaven,%20I%20have%20a%20reference%20photo%20for%20a%20custom%20cake">
+<span class="material-symbols-outlined text-[18px]">add_photo_alternate</span>
+<span class="">Send Reference Photo</span>
+</a>
+<a class="h-11 px-4 rounded-full bg-surface-container-highest text-primary-container flex items-center justify-center gap-1 font-label-md text-label-md" href="tel:+919876543210">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span class="">Inquire</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Instagram Daily Stories & Community Callout Strip -->
+<section class="p-gutter">
+<div class="rounded-xl p-space-md bg-gradient-to-br from-primary-container via-primary-container to-secondary text-surface shadow-md flex flex-col gap-space-sm relative overflow-hidden">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-surface/15 backdrop-blur-md flex items-center justify-center text-surface shrink-0">
+<span class="material-symbols-outlined text-[26px]">photo_camera</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-[18px] text-surface font-bold">@7thheavenrobertsganj</span>
+<span class="material-symbols-outlined text-secondary-fixed text-[16px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<span class="font-body-sm text-[13px] text-surface-variant">Daily live kitchen bakes, reels &amp; special discount codes!</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-surface-variant/90">
+        Tag us in your celebration stories in Robertsganj and get a free chocolate brownie shot on your next cafe visit!
+      </p>
+<div class="pt-1">
+<a class="w-full h-11 rounded-full bg-surface text-primary-container flex items-center justify-center gap-2 font-label-md text-label-md shadow-sm active:scale-95 transition-transform" href="https://instagram.com/7thheavenrobertsganj" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+<span class="">Follow on Instagram</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Store Visit & Location Hub -->
+<!-- Customer Reviews & Real Photos Section -->
+<section class="px-gutter py-space-sm flex flex-col gap-space-sm">
+  <div class="flex flex-col gap-1">
+    <div class="flex items-center justify-between">
+      <span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">WHAT ROBERTSGANJ SAYS</span>
+      <div class="flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm font-semibold">
+        <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+        <span class="">4.9 / 5.0</span>
+      </div>
+    </div>
+    <div class="flex items-end justify-between">
+      <h2 class="font-headline-sm text-headline-sm text-primary-container leading-tight">Customer Love &amp; Photo Ratings</h2>
+    </div>
+    <p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5">
+      <span class="flex items-center text-[#eab308]">
+        <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+        <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+        <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+        <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+        <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+      </span>
+      <span class="">Based on 850+ reviews on Google &amp; Instagram</span>
+    </p>
+  </div>
+
+  <!-- Customer Reviews Carousel -->
+  <div class="flex gap-space-sm overflow-x-auto no-scrollbar snap-x pt-1">
+    <!-- Review Card 1 -->
+    <div class="snap-start shrink-0 w-72 bg-surface-container-lowest rounded-xl p-space-md shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col justify-between gap-3 border border-surface-container-highest/60">
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <div class="w-9 h-9 rounded-full bg-secondary-container flex items-center justify-center font-bold text-on-secondary-fixed text-label-md shrink-0">
+              SV
+            </div>
+            <div class="flex flex-col min-w-0">
+              <span class="font-label-md text-label-md text-primary-container font-semibold truncate leading-tight">Shalini Verma</span>
+              <span class="font-label-sm text-[11px] text-on-surface-variant truncate">Robertsganj Local • Verified</span>
+            </div>
+          </div>
+          <div class="flex items-center text-[#eab308]">
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+          </div>
+        </div>
+        <p class="font-body-sm text-[13px] text-on-surface-variant leading-snug">
+          “Ordered a birthday cake last minute and they made a fresh Dutch Truffle right in front of us in under 10 minutes! Absolute perfection and 100% pure veg.”
+        </p>
+      </div>
+      <div class="flex items-center gap-1.5 pt-1">
+        <span class="px-2 py-0.5 rounded-full bg-surface-container-low text-secondary font-label-sm text-[10px] font-semibold flex items-center gap-1">
+          <span class="material-symbols-outlined text-[13px]">cake</span>
+          Ordered: Dutch Truffle 500g
+        </span>
+      </div>
+    </div>
+
+    <!-- Review Card 2 -->
+    <div class="snap-start shrink-0 w-72 bg-surface-container-lowest rounded-xl p-space-md shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col justify-between gap-3 border border-surface-container-highest/60">
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary-container text-label-md shrink-0">
+              AJ
+            </div>
+            <div class="flex flex-col min-w-0">
+              <span class="font-label-md text-label-md text-primary-container font-semibold truncate leading-tight">Aditya Jaiswal</span>
+              <span class="font-label-sm text-[11px] text-on-surface-variant truncate">Food Explorer • 42 Reviews</span>
+            </div>
+          </div>
+          <div class="flex items-center text-[#eab308]">
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+          </div>
+        </div>
+        <p class="font-body-sm text-[13px] text-on-surface-variant leading-snug">
+          “The Belgian waffles are super crispy on the outside and soft inside. Best cafe vibe in Sonbhadra district for hangout.”
+        </p>
+      </div>
+      <div class="flex items-center gap-1.5 pt-1">
+        <span class="px-2 py-0.5 rounded-full bg-surface-container-low text-secondary font-label-sm text-[10px] font-semibold flex items-center gap-1">
+          <span class="material-symbols-outlined text-[13px]">bakery_dining</span>
+          Ordered: Nutella Belgian Waffle
+        </span>
+      </div>
+    </div>
+
+    <!-- Review Card 3 -->
+    <div class="snap-start shrink-0 w-72 bg-surface-container-lowest rounded-xl p-space-md shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col justify-between gap-3 border border-surface-container-highest/60">
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-on-secondary-fixed text-label-md shrink-0">
+              NP
+            </div>
+            <div class="flex flex-col min-w-0">
+              <span class="font-label-md text-label-md text-primary-container font-semibold truncate leading-tight">Dr. Neha Pandey</span>
+              <span class="font-label-sm text-[11px] text-on-surface-variant truncate">Anniversary Celebration</span>
+            </div>
+          </div>
+          <div class="flex items-center text-[#eab308]">
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+          </div>
+        </div>
+        <p class="font-body-sm text-[13px] text-on-surface-variant leading-snug">
+          “Got a customized 2-tier wedding anniversary cake. The detailing and eggless taste blew everyone away!”
+        </p>
+      </div>
+      <div class="flex items-center gap-1.5 pt-1">
+        <span class="px-2 py-0.5 rounded-full bg-surface-container-low text-secondary font-label-sm text-[10px] font-semibold flex items-center gap-1">
+          <span class="material-symbols-outlined text-[13px]">celebration</span>
+          Ordered: 2-Tier Fresh Fruit Cake
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer Photo Wall / Uploaded by Foodies -->
+  <div class="flex flex-col gap-2 pt-2">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-1.5">
+        <span class="material-symbols-outlined text-[18px] text-secondary">photo_library</span>
+        <span class="font-label-md text-label-md text-primary-container font-semibold">Customer Photo Moments</span>
+      </div>
+      <span class="font-label-sm text-[11px] text-on-surface-variant">#7thHeavenRobertsganj</span>
+    </div>
+    <div class="grid grid-cols-3 gap-2">
+      <div class="relative rounded-lg overflow-hidden h-24 bg-surface-container shadow-xs">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhFeIo2FCgbvQx3gnqWosicput4GfldmTvLhKDwhHMDCzMfLLafa5gaultuJrya628JMjB5rb8JOVTwk05PAwNfW7z3rEeUnMtzqmdsP317NfiR_-qhZCG4eIi-9nVSqc4RrFM5Lv5u5BmjsPuEmRZLG6KxvXclj4A8e7foclMVDIzy0JCNA59Rg4nA9ahnkNjjR1x5AloqVu4lzf6GoEXbGi391Z_W-oultU3y7S1MsT-6peDsVwK" alt="Truffle Cake Review Photo" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent flex items-end p-1.5">
+          <span class="text-[10px] text-surface font-semibold flex items-center gap-0.5">
+            <span class="text-[#eab308]">★</span> 5.0 Truffle
+          </span>
+        </div>
+      </div>
+      <div class="relative rounded-lg overflow-hidden h-24 bg-surface-container shadow-xs">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmmn6liPnyg3gm7vk8P25Jhra8uby_rffeLEIns0GEBCDV0zXSwRYoM0jIiAZc6olSTLInsVafYqQ8hwgyucL88FPQdNStMGsDZmXWwzIskjhQsbCqHjurvMDVLvmyfgRG3gYVEEswTDGqN_-MorFh5KkdB06Hb1QT2sBL9E_iQr4VaIZuHhxwbFVsHMv_tYUMB9GNp37PWndOG4cWhFQJzSseGXR3tHlHJ_nZC7-j9MUpEXm2_Bp_" alt="Nutella Waffle Review Photo" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent flex items-end p-1.5">
+          <span class="text-[10px] text-surface font-semibold flex items-center gap-0.5">
+            <span class="text-[#eab308]">★</span> 4.9 Waffle
+          </span>
+        </div>
+      </div>
+      <div class="relative rounded-lg overflow-hidden h-24 bg-surface-container shadow-xs">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ45GjyteE3feh599VlARiNnuYcoKJiwZyU_aDjjhrHPLpxQbV0bTEPmqMg3lfA3eG7cao8FcCZtokvElmm9iFFXW9_RKhTVNmjzeYTljFQquhe8_VEE9aVXR_wgAYi285GYEvi73s2IXkNruVr1PTj8SywJqY87nTs8Hu8gVXPuScJASDf06q0avEY3fkUeXbshcUI9mwQBJoEqtMPIC71tQX9VoMsdEc9GKPpTLNXknc6YdB0Ng6" alt="Dessert Jars Review Photo" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent flex items-end p-1.5">
+          <span class="text-[10px] text-surface font-semibold flex items-center gap-0.5">
+            <span class="text-[#eab308]">★</span> 5.0 Ambience
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Review & Voucher CTA Card -->
+  <div class="bg-surface-container-lowest rounded-xl p-space-md border border-secondary-container/40 shadow-sm flex flex-col gap-2.5 mt-1">
+    <div class="flex items-start gap-2.5">
+      <div class="w-10 h-10 rounded-full bg-secondary-container/30 text-secondary flex items-center justify-center shrink-0">
+        <span class="material-symbols-outlined text-[20px]">card_giftcard</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-label-md text-label-md text-primary-container font-bold">Win a ₹100 Pastry Voucher</span>
+        <span class="font-body-sm text-[12px] text-on-surface-variant leading-tight">Dined with us or ordered a cake? Share your review &amp; photo to win on your next visit!</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-space-xs pt-1">
+      <a class="h-9 px-3 rounded-full bg-primary-container text-surface flex items-center justify-center gap-1.5 font-label-sm text-label-sm shadow-xs active:scale-95 transition-transform" href="https://maps.google.com/?q=7th+Heaven+Robertsganj+Sonbhadra" target="_blank" rel="noopener noreferrer">
+        <span class="material-symbols-outlined text-[16px]">rate_review</span>
+        <span class="">Google Review</span>
+      </a>
+      <a class="h-9 px-3 rounded-full bg-surface-container-high hover:bg-secondary-fixed text-primary-container flex items-center justify-center gap-1.5 font-label-sm text-label-sm transition-colors" href="https://instagram.com/7thheavenrobertsganj" target="_blank" rel="noopener noreferrer">
+        <span class="material-symbols-outlined text-[16px]">photo_camera</span>
+        <span class="">Tag on Insta</span>
+      </a>
+    </div>
+  </div>
+</section><section class="p-gutter pt-0 flex flex-col gap-space-sm" id="store-location">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Visit Our Cafe</span>
+<span class="font-headline-sm text-headline-sm text-primary-container">Store Location &amp; Timings</span>
+</div>
+<!-- Location Card with Dynamic Map Trigger -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_2px_8px_-2px_rgba(43,23,18,0.06)] flex flex-col gap-space-md">
+<!-- Google Map Container via Asset Pipeline Specification -->
+<div class="w-full h-44 rounded-lg bg-cover bg-center relative overflow-hidden flex items-end p-space-sm" data-location="7th Heaven, Main Road Market, Robertsganj, Sonbhadra, Uttar Pradesh" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAC0FWteRZOpyELkC48S6FM27-Y5E7-yAnOWQWDlwYKCD7jq-OOpAZQin7J2hQGvzCl1b2ZGrv61JRwPGDz3wfgprLCHwTZe6KjAwW5K-6yVOXpoyzIsbAcCVXXRJq8XdrhpaSfn1_CVID7UBqMGcwIAg5KUCiQ9O8xH3yrqEySK-aGvB5gxfpV3CgQNaJDRxMLVxIamTGG3Eszn-vp3eraGRbaV6AnN36ElHN2hnzXWUiIDUUydd0v')">
+<div class="px-3 py-1.5 rounded-full bg-primary-container/90 text-surface backdrop-blur-sm flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">pin_drop</span>
+<span class="font-label-sm text-label-sm">Robertsganj Hub</span>
+</div>
+</div>
+<!-- Address & Store Details -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">store</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">7th Heaven Robertsganj</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Main Market Road, Near Swarna Jayanti Chowk, Robertsganj, District Sonbhadra, Uttar Pradesh - 231216</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs pt-1">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">schedule</span>
+<span class="font-body-sm text-body-sm text-on-surface">Open Daily: <strong>10:00 AM – 10:30 PM</strong></span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">local_shipping</span>
+<span class="font-body-sm text-body-sm text-on-surface">Free Home Delivery within 5km radius</span>
+</div>
+</div>
+<!-- Directions & Direct Contact Buttons -->
+<div class="grid grid-cols-2 gap-space-xs pt-1">
+<a class="h-11 rounded-full bg-surface-container-high hover:bg-secondary-fixed text-primary-container flex items-center justify-center gap-1.5 font-label-md text-label-md transition-colors" href="https://maps.google.com/?q=7th+Heaven+Robertsganj+Sonbhadra" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+<span class="">Google Maps</span>
+</a>
+<a class="h-11 rounded-full bg-primary-container text-surface flex items-center justify-center gap-1.5 font-label-md text-label-md shadow-sm" href="tel:+919876543210">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span class="">Call Store</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Sticky Quick Action Ribbon (Floating above shell bottom nav) -->
+<div class="fixed bottom-20 left-4 right-4 z-40 max-w-md mx-auto">
+<div class="bg-primary-container/95 backdrop-blur-xl text-surface rounded-full py-2 px-3 shadow-[0_12px_28px_rgba(43,23,18,0.28)] flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 pl-2 min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-on-tertiary-container animate-ping shrink-0"></span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-surface font-semibold truncate leading-none">Kitchen is Baking!</span>
+<span class="font-body-sm text-[11px] text-surface-variant truncate">Order now for 7-min pickup</span>
+</div>
+</div>
+<a class="shrink-0 h-10 px-4 rounded-full bg-on-tertiary-container hover:bg-on-tertiary-container/90 text-surface flex items-center gap-1.5 font-label-md text-label-md shadow-sm active:scale-95 transition-transform" href="https://wa.me/919876543210?text=Hi%207th%20Heaven%20Robertsganj,%20I'd%20like%20to%20order%20now!" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="">Order WhatsApp</span>
+</a>
+</div>
+</div>
+</div>
+<script>
+  // Dynamic smooth scroll and mobile micro-interactions
+  document.addEventListener('DOMContentLoaded', () => {
+    const directionsLink = document.querySelector('a[href="#store-location"]');
+    if (directionsLink) {
+      directionsLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.getElementById('store-location');
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(43,23,18,0.06)]" data-active-classes="text-primary-container font-semibold"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 transition-colors text-primary-container font-semibold" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">storefront</span><span class="font-label-sm text-label-sm mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="menu" href="#"><span class="material-symbols-outlined text-[22px]">restaurant_menu</span><span class="font-label-sm text-label-sm mt-0.5">Menu</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="instagram" href="#"><span class="material-symbols-outlined text-[22px]">photo_camera</span><span class="font-label-sm text-label-sm mt-0.5">Instagram</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="location" href="#"><span class="material-symbols-outlined text-[22px]">location_on</span><span class="font-label-sm text-label-sm mt-0.5">Location</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#"><span class="material-symbols-outlined text-[22px]">support_agent</span><span class="font-label-sm text-label-sm mt-0.5">Contact</span></a></div></nav>
+
+</body></html>
